@@ -1,6 +1,6 @@
 // Ex.1
 
-/*var a=true ;
+var a=true ;
 var Num = 1;
 var n= 1;
 while(a==true){
@@ -45,7 +45,7 @@ while (i == true) {
 }
 
 var moy = somme / counter;
-alert("La somme est : " + somme + "." + "Le nombre de saisie :" + counter + "." + "La moyenne de toutes les saisies" + moy + ".");*/
+alert("La somme est : " + somme + "." + "Le nombre de saisie :" + counter + "." + "La moyenne de toutes les saisies" + moy + ".");
 
 
 // Ex.4
