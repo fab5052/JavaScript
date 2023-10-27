@@ -15,7 +15,7 @@ tableMultiplication(n);
 
 
 
-// ou :: console.log(`${number} * ${i} = ${result}`);*/             
+// /!\ ou :: console.log(`${number} * ${i} = ${result}`);*/             
              
              
              
