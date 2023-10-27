@@ -1,4 +1,4 @@
-// Ex.1
+/* Ex.1
 
 var a=true ;
 var Num = 1;
@@ -28,7 +28,7 @@ for(nombre; nombre>=0; --nombre ){
 
 // Ex.3
 
-var i = true;
+var i = true
 var somme = 0;
 var moy = 0;
 var counter = 0;
@@ -47,17 +47,15 @@ while (i == true) {
 var moy = somme / counter;
 alert("La somme est : " + somme + "." + "Le nombre de saisie :" + counter + "." + "La moyenne de toutes les saisies" + moy + ".");
 
-
 // Ex.4
 
-var N=0;
-var X=0;
-N = parseInt(window.prompt("Entrez le premier nombre"));
-X = parseInt(window.prompt("Entrez le deuxieme nombre"));
 
-for (N=0;N<=10;N++){
-    result=N*X;
+var i = parseInt(window.prompt("Entrez le 1er nombre"));
+var X = parseInt(window.prompt("Entrez le 2eme nombre"));
+
+ for  (i = 1; i<10; i++) { 
+
+   result = i * X;
+   
     alert(result);
-
-}
-
+} while (i =!0 && i == 0);*/

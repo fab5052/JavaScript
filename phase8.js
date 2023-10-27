@@ -1,4 +1,4 @@
-// Ex.1
+ /* //Ex.1
 
 var a = parseInt(window.prompt("Entrez un nombre"));
 
@@ -11,7 +11,7 @@ else {
 }
 
 
-// Ex.2
+  Ex.2
 
 var annee = new Date().getFullYear(); 
 var age = (window.prompt("Quelle est votre année de naissance ?"));
@@ -25,7 +25,7 @@ else {
 }
 
 
-// Ex.3
+ Ex.3
 
 
 var nb1 = parseInt(window.prompt("Entrez un 1er nombre entier"));

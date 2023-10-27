@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Début de la balise head -->
+
+<head>
+  <!-- Encodage UTF-8 conçu pour coder l'ensemble des caractères -->
+  <meta charset="UTF-8">
+  <!-- Permet d'indiquer comment le navigateur doit afficher la page sur différents appareils -->
+  <meta name="viewport" content="width=device-width>
+  <title>JARDITOU</title>
+  
+</head>
+
+<body>
+
+  <header>
+
+    <img class="entete_g" src="assets/img/jarditou_logo.png" alt="logo_g">
+    <p class="titre">Tout le jardin</p>
+    <img class="entete_d" src="assets/img/jarditou_logo_dr.png" alt="logo_d">
+  </header>
+
+  <nav> <!-- Menu de Navigation -->
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="tableau.html">Tableau</a></li>
+      <li><a href="contact.html">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+
+    <h1>FORMULAIRE D'INSCRIPTION</h1>
+    <hr>
+
+    <form action="http://bienvu.net/script.php" method="POST" id="validation_formulaire"> 
+
+    <h2>* Ces zones sont obligatoires</h2>
+
+    <fieldset>
+      <legend>Vos coordonnées</legend><br>
+
+      <label for="nom">Votre nom*:</label>
+      <input type="text" name="nom" id="nom" title="Veuillez entrer votre nom" required>
+
+      <label for="prenom">Votre prénom*:</label>
+      <input type="text" name="prenom" id="prenom" title="Veuillez entrer votre prenom" required>
+      
+      <p>sexe* :</p><label for="sexef">féminin</label>
+      <input type="radio" name="sexe" value="Féminin" id="sexef" required>
+          <label for="sexem">Masculin</label>
+          <input type="radio" name="sexe" value="Masculin" id="sexem" required><br><br>
+      
+
+      <label for="ddn">Date de naissance*:</label>
+      <input type="date" name="ddn" id="ddn" title="Veuillez entrer votre date de naisssance" required><br><br>
+
+      <label for="CodePostal">Code postal*:</label>
+      <input type="text" name="CodePostal" id="cp "title="Veuillez entrer votre code postal" required><br><br>
+
+      <label for="Adresse">Adresse:</label>
+      <input type="text" name="Adresse" id="adresse" title="Veuillez entrer votre adresse" required ><br><br>
+
+      <label for="Ville">Ville:</label>
+      <input type="text" name="Ville" id="ville" title="Veuillez entrer votre ville" required><br><br>
+
+      <label for="Email">Email*:</label>
+      <input type="text" name="Email" id="Email" placeholder="dave.loper@afpa.fr" title="Veuillez entrer votre Email" required ><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Votre demande</legend><br>
+
+      <label for="sujet">Sujet*: </label>
+
+      <select id="sujet" title="Veuillez renseigner un sujet" required >
+        <option selected disabled value="Veuillez">Veuillez séléctionner un sujet</option>
+        <option value="Commandes">Commandes</option>
+        <option value="Question sur un produit">Question sur un produit</option>
+        <option value="Réclamatiuons">Réclamations</option>
+        <option value="Autres">Autres</option>
+      </select><br><br>
+
+      <label for="question">Votre question*:</label>
+      <textarea name="question" id="question" title="Veuillez poser votre question" rows="5" cols="50"></textarea><br><br>
+
+      <input type="checkbox" name="checkbox" id="checkbox" title="Veuillez accepter l'envoi du formulaire" value="* J'accepte le traitement de ce formulaire" required>*J'accepte le
+      traitement de ce formulaire
+
+    </fieldset><br>
+
+
+    <input type="submit" class="button" value="Envoyer" id="submit_button">
+    <input type="reset" class="button" value="Annuler">
+
+   </form>
+
+ </section>
+
+</main>
+
+  <footer>
+    <nav> <!-- Menu de Navigation -->
+      <ul>
+        <li><a href="index.html">Mentions légales</a></li>
+        <li><a href="tableau.html">Horaires</a></li>
+        <li><a href="index.html">Plan du site</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+
+
+ <script src="validation_formulaire.js"></script></body>
+
+</html>
